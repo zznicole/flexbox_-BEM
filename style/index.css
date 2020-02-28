@@ -2,7 +2,7 @@ body {
     margin: 0;
 }
 .navigation {
-    display:block;
+    display: block;
     width: 100%;
     height: 88px;
     background: #FFFFFF;
@@ -17,7 +17,7 @@ body {
 }
 
 a:hover {
-    color:aqua;
+    color: aqua;
     text-decoration: none;
 }
 
@@ -36,6 +36,7 @@ a {
     text-align: center;
     color: #444444;
     margin-right: 53px;
+    margin-left: 350px;
 }
 
 .navigation__link--blue {
@@ -72,7 +73,7 @@ a {
 
 main {
     width: 100%;
-    height: 812px;
+    height: 575px;
     background-color: darkgrey;
 }
 
@@ -90,7 +91,9 @@ main {
     height: 244px;
     margin-left: auto;
     margin-right: auto;
-    
+    position: relative;
+    left: 467px;
+    margin-top: 91px;
 } 
 
 .heart-icon {
@@ -116,7 +119,9 @@ main {
 
 }
 
-.hero__text--content {
+.hero__text--text {
+    width: 466px;
+    height: 78px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -139,6 +144,9 @@ main {
     width: 186px;
     height: 39px;
     border: 0px;
+   
+    position: relative;
+    left: 133px;
 }
 
 .hero__button:hover {
@@ -148,19 +156,16 @@ main {
 
 .flexbox__container {
     width: 100%;
-    height: 700px;
+    height: 575px;
     display: flex;
     flex-direction: row;
     align-items: flex-end;
     justify-content: space-around;
-    
 }
-
-
 
 .card {
     width: 224px;
-    height: 278px;
+    height: 248px;
     background-color: #ffffff;
     box-shadow: 2px 2px 8px rgba(0,0,0,0.25);
     display: flex;
@@ -168,7 +173,7 @@ main {
     align-items: center;
     padding-top: 32px;
     padding-bottom: 20px;
-    
+    margin-bottom: 120px;
 }
 
 .card__icon {
@@ -188,6 +193,7 @@ main {
 .card__text {
     width: 170px;
     height: 74px;
+   
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -195,14 +201,12 @@ main {
     line-height: 1.4;
     text-align: center;
     color: #000000
-    
 }
 
 .footer {
     width: 100%;
     height: 257px;
     background: #F8F8F8;
-    
 }
 
 
